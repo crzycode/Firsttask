@@ -25,7 +25,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              {
+								"input": "src/assets/themeCSS/black.css",
+								"bundleName": "black",
+								"inject": false
+							},
+							{
+								"input": "src/assets/themeCSS/blue.css",
+								"bundleName": "blue",
+								"inject": false
+							},
+							{
+								"input": "src/assets/themeCSS/red.css",
+								"bundleName": "red",
+								"inject": false
+							}
             ],
             "scripts": []
           },
@@ -94,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
